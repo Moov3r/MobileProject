@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +36,7 @@ class SecondScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Это второе основное окно приложения',
+              'Это второе окно данил пидор',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, color: Colors.grey[700]),
             ),
@@ -58,7 +60,7 @@ class SecondScreen extends StatelessWidget {
                 children: [
                   Icon(Icons.arrow_back),
                   SizedBox(width: 10),
-                  Text('Вернуться назад'),
+                  Text('Вернуться назад и дать пизды данилу'),
                 ],
               ),
             ),
