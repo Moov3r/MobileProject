@@ -36,13 +36,13 @@ class SecondScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Это второе окно данил пидор',
+              'Это второе окнидор',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, color: Colors.grey[700]),
             ),
             SizedBox(height: 40),
 
-            // Кнопка для возврата
+            // Кнопка для возврат
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context); // Возврат на первое окно
