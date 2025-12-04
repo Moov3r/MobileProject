@@ -36,7 +36,7 @@ class SecondScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Это второе окнидор',
+              'Хуёк то у него большой',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, color: Colors.grey[700]),
             ),
